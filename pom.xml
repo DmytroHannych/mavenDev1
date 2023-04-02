@@ -33,10 +33,11 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.5.0</version>
 
-
                 <configuration>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
+                        <finalName>myname</finalName>
+                        <appendAssemblyId>false</appendAssemblyId>
                     </descriptorRefs>
                     <archive>
                         <manifest>
